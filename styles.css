@@ -1,0 +1,50 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.maindiv{
+    height: 1000px;
+    width: 1400px;
+    background-color: goldenrod;
+}
+.subdiv{
+    height: 300px;
+    width: 600px;
+    background-color: palevioletred;
+    position: relative;
+    left: 400px;
+    top: 150px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 1px 5px 5px whitesmoke;
+   
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+}
+.sub{
+    width: 100px;
+    height: 30px;
+    color: whitesmoke;
+    border-color: black;
+    margin-left: 220px;
+    margin-top: 50px;
+    background-color: black;
+}
+#finalResult{
+    color: black;
+    font-size: 45px;
+    margin-left: 120px;
+
+}
+.sub:hover{
+    cursor: pointer;
+}
+.sel,.num{
+    border-radius: 20px;
+}
+.num{
+    margin-top: 50px;
+    margin-left: 185px;
+    width: 75px;
+}
